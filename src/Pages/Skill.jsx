@@ -22,6 +22,7 @@ const Skill = () => {
         alignItems="center"
         pt={8}
         pb={8}
+        color="rgb(210,223,205)"
       >
         {/* //first box */}
         <Box w={["100%", "40%"]} h="80%">
@@ -45,8 +46,18 @@ const Skill = () => {
               alignItems="center"
               gap="10px"
             >
-              <Image w="26%" borderRadius="50%" src="html.png" />
-              <Image w="26%" borderRadius="50%" src="css.png" />{" "}
+              <Image
+                w="26%"
+                borderRadius="50%"
+                src="html.png"
+                title="HTML: Hyper Text Markup Language"
+              />
+              <Image
+                w="26%"
+                borderRadius="50%"
+                src="css.png"
+                title="CSS: Cascading Style Sheets"
+              />{" "}
             </Box>
             <Box
               w="100%"
@@ -56,8 +67,13 @@ const Skill = () => {
               alignItems="center"
               gap="10px"
             >
-              <Image w="25%" borderRadius="50%" src="logo512.png" />
-              <Image w="25%" borderRadius="50%" src="redux.svg" />
+              <Image
+                w="25%"
+                borderRadius="50%"
+                src="logo512.png"
+                title="React"
+              />
+              <Image w="25%" borderRadius="50%" src="redux.svg" title="Redux" />
             </Box>
             <Box
               w="100%"
@@ -67,8 +83,18 @@ const Skill = () => {
               alignItems="center"
               gap="10px"
             >
-              <Image w="20%" borderRadius="50%" src="chakra-ui.jfif" />
-              <Image w="23%" borderRadius="50%" src="bootstrap.png" />
+              <Image
+                w="20%"
+                borderRadius="50%"
+                src="chakra-ui.jfif"
+                title="Chakra-Ui"
+              />
+              <Image
+                w="23%"
+                borderRadius="50%"
+                src="bootstrap.png"
+                title="Bootstrap"
+              />
             </Box>
             <Box
               w="100%"
@@ -79,7 +105,12 @@ const Skill = () => {
               alignItems="center"
               gap="10px"
             >
-              <Image w="28%" borderRadius="50%" src="js.png" />
+              <Image
+                w="28%"
+                borderRadius="50%"
+                src="js.png"
+                title="JavaScript"
+              />
             </Box>
           </Box>
         </Box>
@@ -99,15 +130,19 @@ const Skill = () => {
           >
             <Box w="38%" borderRadius="50%">
               {" "}
-              <Image borderRadius="50%" src="nodejs.png" />
+              <Image borderRadius="50%" src="nodejs.png" title="Node.js" />
             </Box>
             <Box w="33%" borderRadius="50%">
               {" "}
-              <Image borderRadius="50%" src="expressjs.png" />
+              <Image
+                borderRadius="50%"
+                src="expressjs.png"
+                title="Express.js"
+              />
             </Box>
             <Box w="33%" borderRadius="50%">
               {" "}
-              <Image borderRadius="50%" src="mongoDb.png" />
+              <Image borderRadius="50%" src="mongoDb.png" title="MongoDb" />
             </Box>
           </Box>
         </Box>
@@ -127,19 +162,19 @@ const Skill = () => {
           >
             <Box w="38%" borderRadius="50%">
               {" "}
-              <Image borderRadius="50%" src="git.png" />
+              <Image borderRadius="50%" src="git.png" title="GitHub" />
             </Box>
             <Box w="33%" borderRadius="50%">
               {" "}
-              <Image borderRadius="50%" src="heroku.png" />
+              <Image borderRadius="50%" src="heroku.png" title="Heroku" />
             </Box>
             <Box w="30%" borderRadius="50%">
               {" "}
-              <Image borderRadius="50%" src="vercel.png" />
+              <Image borderRadius="50%" src="vercel.png" title="Vercel" />
             </Box>
             <Box w="30%" borderRadius="50%">
               {" "}
-              <Image borderRadius="50%" src="netlify.png" />
+              <Image borderRadius="50%" src="netlify.png" title="Netlify" />
             </Box>
           </Box>
         </Box>
