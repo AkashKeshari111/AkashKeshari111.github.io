@@ -10,14 +10,14 @@ import { HashLink} from "react-router-hash-link";
 
 const Contact = () => {
   return (
-   <Box border="1px solid red" pt={4} display="flex" alignItems="center" flexDirection="column">
-    <Image src="" h="100px" />
+   <Box  pt={4} display="flex" alignItems="center" flexDirection="column">
+    <Image src="tenor.gif" h="120px" borderRadius="50%" />
 
-    <Box w="100%" fontSize={10} height="200px" border="1px solid black" color="white"   borderRadius= "50% 50% 0 0" bg="rgb(46,52,69)" p={4} display="flex" alignItems="center" gap="7px" flexDirection="column">
+    <Box w="100%" fontSize={16} height="300px" border="1px solid rgb(46,52,69)" color="white"   borderRadius= "50% 50% 0 0" bg="rgb(46,52,69)" p={6} display="flex" alignItems="center" gap="7px" flexDirection="column">
        <Box display="flex" alignItems="center" gap="7px"><FiPhoneCall/><Text>+91 8299116219</Text></Box>
        <Link to="" >akashkeshari2722000@gmail.com</Link>
        
-       <Box display="flex" justifyContent="center" gap="9px" fontSize={22} pt={4}>
+       <Box display="flex" justifyContent="center" gap="9px" fontSize={35} pt={4}>
        <Link to=""><Text  ><BsLinkedin color="white"/></Text></Link>
         <Link to="//github.com/AkashKeshari111" target="_blank"><Text><FaGithub color="white"/></Text></Link>
    
@@ -27,8 +27,8 @@ const Contact = () => {
         <Link to=""><Text><FaTwitterSquare color="white"/></Text></Link>
        </Box>
        
-       <Box w="40px" h="40px" mt="40px">
-        <HashLink to="#navbar"><Text><BsFillArrowUpCircleFill fontSize="40px"/></Text></HashLink>
+       <Box  mt="50px">
+        <HashLink to="#home"><Text><BsFillArrowUpCircleFill fontSize="65px"/></Text></HashLink>
        </Box>
      
     </Box>

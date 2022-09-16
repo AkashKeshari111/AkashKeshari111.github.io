@@ -6,7 +6,7 @@ import { Box } from '@chakra-ui/react';
 
 function App() {
   return (
-    <Box className="App" id="navbar" fontFamily={"Titillium Web"} pt={8} bg="rgb(34,39,51)">
+    <Box  className="App" id="home" fontFamily={"Titillium Web"} pt={12} bg="rgb(34,39,51)">
    <Navbar/>
    <AllRoutes/>
     </Box>
