@@ -1,4 +1,12 @@
-
+export const nav=[{id:"1",to:"#home",title:"Home"},
+{id:"2",to:"#skill",title:"Tech"},
+{id:"3",to:"#project",title:"Web"},
+{id:"4",to:"#contact",title:"Contact"},
+]
+  
+  
+  
+  
   export const products= [
     {
       "id": 1,

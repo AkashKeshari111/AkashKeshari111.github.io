@@ -4,54 +4,76 @@ import { products } from "../db.js";
 
 const Project = () => {
   return (
-    <Box p={[0,4]} color="white" mb="150px" pt="70px" >
+    <Box p={[0, 4]} color="white" mb="150px">
       <Text
         textDecoration="underline white solid 2px"
         textUnderlineOffset="15px"
         fontSize="45px"
         letterSpacing={5}
         pb={10}
+        pt="70px"
       >
         {" "}
         _Projects_
       </Text>
 
       <Box
-        display="flex"
+        display={["flex", "flex", "flex", "grid", "flex"]}
+        gridTemplateColumns="repeat(2,1fr)"
+        gridTemplateRows="auto"
         justifyContent="center"
         alignItems="center"
         mt="70px"
         flexDirection="column"
-        gap="50px"
-       
+        gap={["50px", "50px", "50px", "50px", "50px"]}
       >
         {products.map((el) => (
           <Box
-            w={["95%","80%"]}
-            h={["inherit","348px"]}
+            w={["95%", "90%", "75%", "80%", "80%"]}
+            h="inherit"
             // border="1px solid lightgrey"
-            display={["block","flex"]}
-            justifyContent="center"
+            ml={[0, 0, 0, "45px", 0]}
+            mr={[0, 0, 0, "45px", 0]}
+            display={["block", "block", "block", "block", "flex"]}
+            justifyContent="space-evenly"
             alignItems="center"
             boxShadow="rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset"
             fontFamily="Calibri Light"
           >
-            <Box w={["100%","35%"]} h={["35%","100%"]}>
+            <Box
+              w={["100%", "100%", "100%", "100%", "35%"]}
+              h={["35%", "35%", "35%", "35%", "348px"]}
+            >
               {" "}
               <Box w="100%" h="78%" overflow="hidden">
                 <Image mt={2} ml={2} w="100%" h="100%" src={el.src} />
               </Box>{" "}
               <Box w="100%" h="22%">
-                <Text fontSize={20} pt={2} fontFamily="Copperplate Gothic Light">
+                <Text
+                  fontSize={20}
+                  pt={2}
+                  fontFamily="Copperplate Gothic Light"
+                >
                   {el.projectType}
                 </Text>
-                <Text fontSize={15} color="rgb(210,223,205)"   fontFamily="Calibri Light">
+                <Text
+                  fontSize={15}
+                  color="rgb(210,223,205)"
+                  fontFamily="Calibri Light"
+                >
                   {el.skillUsed}
                 </Text>
               </Box>
             </Box>
 
-            <Box w={["100%","65%"]} h={["65%","100%"]} pl={5} pt={3} pr={4} pb={4}>
+            <Box
+              w={["100%", "100%", "100%", "100%", "65%"]}
+              h={["65%", "65%", "65%", "65%", "100%"]}
+              pl={5}
+              pt={3}
+              pr={4}
+              pb={4}
+            >
               <Box display="flex" justifyContent="space-between">
                 <Text
                   fontSize={25}
@@ -62,7 +84,13 @@ const Project = () => {
                 >
                   {el.title}
                 </Text>
-                <Box display="flex" gap={6} pr={8} alignItems="center"   fontFamily="Calibri Light">
+                <Box
+                  display="flex"
+                  gap={6}
+                  pr={8}
+                  alignItems="center"
+                  fontFamily="Calibri Light"
+                >
                   <a href={el.liveLink} target="_blank">
                     <button
                       textAlign="right"
@@ -105,14 +133,20 @@ const Project = () => {
                 {el.description}
               </Text>
 
-              <Text fontSize={19} textAlign="start" pt={2} fontWeight="100" fontFamily="Century Gothic">
+              <Text
+                fontSize={19}
+                textAlign="start"
+                pt={2}
+                fontWeight="100"
+                fontFamily="Century Gothic"
+              >
                 Features :
               </Text>
               <Text
                 fontSize={17}
                 textAlign="start"
                 pt={2}
-                display={["block","flex"]}
+                display={["block", "block", "block", "block", "flex"]}
                 gap="17px"
                 listStyleType="square"
                 color="rgb(210,223,205)"
@@ -126,7 +160,13 @@ const Project = () => {
                 <li>{el.l6}</li>
               </Text>
 
-              <Text fontSize={19} textAlign="start" pt={2} fontWeight="100" fontFamily="Century Gothic">
+              <Text
+                fontSize={19}
+                textAlign="start"
+                pt={2}
+                fontWeight="100"
+                fontFamily="Century Gothic"
+              >
                 Responsibility:
               </Text>
               <Text
