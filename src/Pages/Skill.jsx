@@ -2,6 +2,9 @@ import { Box, Grid, GridItem, Image, Text } from "@chakra-ui/react";
 import React from "react";
 
 const Skill = () => {
+
+ 
+
   return (
     <Box p={4} color="white" pt={20}>
       <Text
@@ -23,6 +26,8 @@ const Skill = () => {
         pt={8}
         pb={8}
         color="rgb(210,223,205)"
+      
+     
       >
         {/* //first box */}
         <Box w={["100%", "35%"]} h="80%">
@@ -46,7 +51,8 @@ const Skill = () => {
               justifyContent="center"
               alignItems="center"
               gap="10px"
-              
+              transition=".8s"
+              _hover={{transition:".8s", transform:"rotate(360deg)"}}
             >
               <Image
                 w="28%"
@@ -62,16 +68,19 @@ const Skill = () => {
               justifyContent="space-evenly"
               alignItems="center"
               gap="10px"
+             
             >
               <Image
                 w="24%"
-               
+                transition=".8s"
+                _hover={{transition:".8s", transform:"rotate(360deg)"}}
                 src="html.svg"
                 title="HTML: Hyper Text Markup Language"
               />
               <Image
                 w="24%"
-                
+                transition=".8s"
+                _hover={{transition:".8s", transform:"rotate(360deg)"}}
                 src="css.svg"
                 title="CSS: Cascading Style Sheets"
               />{" "}
@@ -86,11 +95,13 @@ const Skill = () => {
             >
               <Image
                 w="25%"
-              
+                transition=".8s"
+              _hover={{transition:".8s", transform:"rotate(360deg)"}}
                 src="logo512.png"
                 title="React"
               />
-              <Image w="25%" borderRadius="50%" src="redux.svg" title="Redux" />
+              <Image w="25%"        transition=".8s"
+              _hover={{transition:".8s", transform:"rotate(360deg)"}} borderRadius="50%" src="redux.svg" title="Redux" />
             </Box>
             <Box
               w="100%"
@@ -105,10 +116,13 @@ const Skill = () => {
                 borderRadius="50%"
                 src="chakra-ui.jfif"
                 title="Chakra-Ui"
+                transition=".8s"
+              _hover={{transition:".8s", transform:"rotate(360deg)"}}
               />
               <Image
                 w="23%"
-               
+                transition=".8s"
+                _hover={{transition:".8s", transform:"rotate(360deg)"}}
                 src="bootstrap.png"
                 title="Bootstrap"
               />
@@ -130,11 +144,13 @@ const Skill = () => {
             flexDirection="column"
             gap="10px"
           >
-            <Box w="36%" borderRadius="50%">
+            <Box w="36%" borderRadius="50%" transition=".8s"
+              _hover={{ transition:".8s", transform:"rotate(360deg)"}}>
               {" "}
               <Image borderRadius="50%" src="nodejs.png" title="Node.js" />
             </Box>
-            <Box w="31%" borderRadius="50%">
+            <Box w="31%" borderRadius="50%"  transition=".8s"
+              _hover={{ transition:".8s", transform:"rotate(360deg)"}}>
               {" "}
               <Image
                 borderRadius="50%"
@@ -142,7 +158,8 @@ const Skill = () => {
                 title="Express.js"
               />
             </Box>
-            <Box w="31%" borderRadius="50%">
+            <Box w="31%" borderRadius="50%" transition=".8s"
+              _hover={{ transition:".8s", transform:"rotate(360deg)"}}>
               {" "}
               <Image borderRadius="50%" src="mongoDb.png" title="MongoDb" />
             </Box>
@@ -150,36 +167,7 @@ const Skill = () => {
         </Box>
 
         {/* //third box */}
-        {/* <Box w={["100%", "30%"]}>
-          <Text fontSize={[30, 15, 23, 25, 28, 30]} pb={8} pt={[8, 0]}>
-            __Hosting-Platform__
-          </Text>
-          <Box
-            h="80%"
-            display="flex"
-            alignItems="center"
-            justifyContent="center"
-            flexDirection="column"
-            gap="15px"
-          >
-            <Box w="38%" borderRadius="50%">
-              {" "}
-              <Image borderRadius="50%" src="git.png" title="GitHub" />
-            </Box>
-            <Box w="33%" borderRadius="50%">
-              {" "}
-              <Image borderRadius="50%" src="heroku.png" title="Heroku" />
-            </Box>
-            <Box w="30%" borderRadius="50%">
-              {" "}
-              <Image borderRadius="50%" src="vercel.png" title="Vercel" />
-            </Box>
-            <Box w="30%" borderRadius="50%">
-              {" "}
-              <Image borderRadius="50%" src="netlify.png" title="Netlify" />
-            </Box>
-          </Box>
-        </Box> */}
+       
 
 
 
@@ -205,7 +193,8 @@ const Skill = () => {
               justifyContent="center"
               alignItems="center"
               gap="10px"
-             
+              transition=".8s"
+              _hover={{transition:".8s", transform:"rotate(360deg)"}}
             >
               <Image
                 w="28%"
@@ -226,13 +215,16 @@ const Skill = () => {
             >
               <Image
                 w="26%"
+                transition=".8s"
+                _hover={{transition:".8s", transform:"rotate(360deg)"}}
                 borderRadius="50%"
                 src="vscode.svg"
                 title="Virtual Studio Code"
               />
               <Image
                 w="26%"
-               
+                transition=".8s"
+                _hover={{transition:".8s", transform:"rotate(360deg)"}}
                 borderRadius="50%"
                 src="codesandbox.svg"
                 title="CodeSand Box"
@@ -248,11 +240,14 @@ const Skill = () => {
             >
               <Image
                 w="25%"
+                transition=".8s"
+              _hover={{transition:".8s", transform:"rotate(360deg)"}}
                 borderRadius="50%"
                 src="heroku.svg"
                 title="React"
               />
-              <Image w="25%" borderRadius="50%" src="redux.svg" title="Redux" />
+              <Image w="25%"     transition=".8s"
+              _hover={{transition:".8s", transform:"rotate(360deg)"}} borderRadius="50%" src="redux.svg" title="Redux" />
             </Box>
             <Box
               w="100%"
@@ -264,12 +259,16 @@ const Skill = () => {
             >
               <Image
                 w="20%"
+                transition=".8s"
+                _hover={{transition:".8s", transform:"rotate(360deg)"}}
                 borderRadius="50%"
                 src="vercel.png"
                 title="Vercel"
               />
               <Image
                 w="20%"
+                transition=".8s"
+                _hover={{transition:".8s", transform:"rotate(360deg)"}}
                 borderRadius="50%"
                 src="netlify.svg"
                 title="Netlify"

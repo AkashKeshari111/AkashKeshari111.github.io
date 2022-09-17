@@ -42,7 +42,7 @@ const Contact = () => {
           fontSize={35}
           pt={4}
         >
-          <Link to="www.linkedin.com/in/akash111">
+          <Link to="//www.linkedin.com/in/akash111/"  target="_blank">
             <Text>
               <BsLinkedin color="white" />
             </Text>
@@ -61,13 +61,13 @@ const Contact = () => {
               <ImMail color="white" />
             </Text>
           </a>
-          <Link to="">
+          <Link to="//codesandbox.io/dashboard/drafts?workspace=1a78fb10-5a8f-4169-9cfa-84492d51063a" target="_blank">
             <Text>
               <AiFillCodeSandboxCircle color="white" />
             </Text>
           </Link>
 
-          <Link to="">
+          <Link to="//twitter.com/Akashkeshari111" target="_blank">
             <Text>
               <FaTwitterSquare color="white" />
             </Text>
