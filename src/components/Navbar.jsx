@@ -32,13 +32,13 @@ const Navbar = () => {
         {nav.map((el) => (
        
             <Link to={el.to}>
-              <ListItem borderBottom="2px solid rgb(82,94,101)"  _hover={{borderBottom:"2px solid red",transition:".4s"}}>{el.title}</ListItem>
+              <ListItem borderBottom="3px solid rgb(82,94,101)"  _hover={{borderBottom:"3px solid red",transition:".5s"}}>{el.title}</ListItem>
             </Link>
        
         ))}
 
         <a href="Akash_Keshari_Resume.pdf" download>
-          <ListItem  display="flex" ><Text borderBottom="2px solid rgb(82,94,101)" _hover={{borderBottom:"2px solid red",transition:".4s"}}>Resume</Text><span> <Image w="15px" bg="white" borderRadius="50%" src="download1.svg"/></span></ListItem>
+          <ListItem  display="flex" ><Text borderBottom="2px solid rgb(82,94,101)" _hover={{borderBottom:"2px solid white",transition:".4s"}}>Resume</Text><span> <Image w="15px" bg="white" borderRadius="50%" src="download1.svg"/></span></ListItem>
         </a>
       </UnorderedList>
     </Box>

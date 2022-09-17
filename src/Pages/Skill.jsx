@@ -244,10 +244,10 @@ const Skill = () => {
               _hover={{transition:".8s", transform:"rotate(360deg)"}}
                 borderRadius="50%"
                 src="heroku.svg"
-                title="React"
+                title="Heroku"
               />
               <Image w="25%"     transition=".8s"
-              _hover={{transition:".8s", transform:"rotate(360deg)"}} borderRadius="50%" src="redux.svg" title="Redux" />
+              _hover={{transition:".8s", transform:"rotate(360deg)"}} borderRadius="50%" src="heroku.svg" title="Heroku" />
             </Box>
             <Box
               w="100%"
