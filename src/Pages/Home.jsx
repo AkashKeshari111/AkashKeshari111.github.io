@@ -52,14 +52,20 @@ const Home = () => {
           <Image src="Akash_pic.jpg"></Image>
         </Box>
         <Box
-          mt={5}
+          mt={2}
           w={["95%", "85%", "75%", "65%", "55%"]}
           borderRadius="12px"
           p={4}
           pb={6}
           boxShadow="rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset"
         >
-          <Text fontWeight={600} textAlign="center" fontSize={21} color="rgb(210,223,205)"  fontFamily="Calibri Light">
+          <Text
+            fontWeight={600}
+            textAlign={["justify","center"]}
+            fontSize={21}
+            color="rgb(210,223,205)"
+            fontFamily="Calibri Light"
+          >
             <div className={styles.type} Style="--n:53">
               <h2>
                 {" "}
@@ -69,21 +75,28 @@ const Home = () => {
                     lineHeight: "1",
                     fontFamily: "Brush Script MT",
                     color: "white",
-                    fontWeight:"500"
+                    fontWeight: "500",
                   }}
                 >
                   {" "}
                   Hii...{" "}
                 </span>{" "}
-                <span style={{ fontFamily: "Levenim MT", fontSize: "30px", fontWeight: 500 }}>
+                <span
+                  style={{
+                    fontFamily: "Levenim MT",
+                    fontSize: "30px",
+                    fontWeight: 500,
+                  }}
+                >
                   {" "}
                   I{" "}
                 </span>{" "}
                 am Akash Keshari, a Passionate aspiring Full Stack Developer
-                skilled in MERN stack, moulded and shaped by Masai school’s
-                intensive and immersive learning. Look forward to joining a
-                company where I will be able to contribute towards individual
-                and company growth.
+                skilled in MERN stack & building my logic on Data Structure &
+                algorithms as well as developing problem-solving and
+                collaboration and teamwork skills, moulded and shaped by Masai
+                school’s intensive and immersive learning. Look forward to
+                joining a company where I will be able to contribute to my and the company's growth and progress.
               </h2>{" "}
             </div>{" "}
           </Text>

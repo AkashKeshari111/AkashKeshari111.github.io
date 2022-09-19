@@ -1,6 +1,7 @@
 import { Box, Grid, GridItem, Image, Text } from "@chakra-ui/react";
 import React from "react";
 
+
 const Skill = () => {
 
  
@@ -172,8 +173,8 @@ const Skill = () => {
 
 
 <Box w={["100%", "35%"]} h="80%">
-          <Text fontSize={[30, 15, 23, 25, 28, 30]} pb={8}>
-          __Hosting-Platform__
+          <Text fontSize={[30]} pb={8}>
+          __Tools__
           </Text>
           <Box
             w="100%"
@@ -243,8 +244,8 @@ const Skill = () => {
                 transition=".8s"
               _hover={{transition:".8s", transform:"rotate(360deg)"}}
                 borderRadius="50%"
-                src="heroku.svg"
-                title="Heroku"
+                src="postman.svg"
+                title="Postman"
               />
               <Image w="25%"     transition=".8s"
               _hover={{transition:".8s", transform:"rotate(360deg)"}} borderRadius="50%" src="heroku.svg" title="Heroku" />
@@ -278,18 +279,10 @@ const Skill = () => {
           </Box>
         </Box>
 
-
-
-
-
-
-
-
-
-
-
-
       </Box>
+
+
+
     </Box>
   );
 };

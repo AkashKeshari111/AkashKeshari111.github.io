@@ -6,15 +6,17 @@ const Project = () => {
   return (
     <Box p={[0, 4]} color="white" mb="150px">
       <Text
-        textDecoration="underline white solid 2px"
-        textUnderlineOffset="15px"
-        fontSize="45px"
-        letterSpacing={5}
+      
         pb={10}
         pt="70px"
+        textDecoration="underline white solid 2px"
+        textUnderlineOffset="15px"
+        fontSize={["30px", "40px"]}
+        letterSpacing={5}
+        fontWeight={300}
       >
         {" "}
-        _Projects_
+        _PROJECTS_
       </Text>
 
       <Box
@@ -148,7 +150,7 @@ const Project = () => {
                 pt={2}
                 display={["block", "block", "block", "block", "flex"]}
                 gap="17px"
-                listStyleType="square"
+                listStyleType="none"
                 color="rgb(210,223,205)"
                 fontFamily="Calibri Light"
               >
@@ -173,7 +175,7 @@ const Project = () => {
                 fontSize={17}
                 textAlign="start"
                 pt={2}
-                listStyleType="circle"
+                listStyleType="none"
                 color="rgb(210,223,205)"
                 fontFamily="Calibri Light"
               >
