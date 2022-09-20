@@ -42,22 +42,22 @@ I am Akash Keshari, a Passionate aspiring Full Stack Developer skilled in MERN s
 
 ## How to use
 * Clone this Repo
-* ```bash
-  npm install
-  npm start
-
+ ```bash
+ * npm install
+ * npm start
+```
 ## Deployment
 
 To deploy this project run
 
 ```bash
-  npm run deploy
+ * npm run deploy
 ```
 ## Feedback
 
-If you have any feedback, please reach out to us at akashkeshari2722000@gmail.com
+■ If you have any feedback, please reach out to us at akashkeshari2722000@gmail.com
 
 
 ## Thanks
 
-If you liked this portfolio template, don't forget to give it a ⭐.
+♦ If you liked this portfolio template, don't forget to give it a ⭐.
