@@ -61,4 +61,4 @@ To deploy this project run
 
 ## Thanks
 
-♦ If you liked this portfolio template, don't forget to give it a ⭐.
+♦ If you liked this portfolio, don't forget to give it a ⭐.
