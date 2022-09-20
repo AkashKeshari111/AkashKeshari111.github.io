@@ -43,6 +43,7 @@ I am Akash Keshari, a Passionate aspiring Full Stack Developer skilled in MERN s
 ## How to use
 * Clone this Repo
  ```bash
+ * git clone https://github.com/AkashKeshari111/AkashKeshari111.github.io.git
  * npm install
  * npm start
 ```
@@ -60,4 +61,4 @@ To deploy this project run
 
 ## Thanks
 
-♦ If you liked this portfolio template, don't forget to give it a ⭐.
+♦ If you liked this portfolio, don't forget to give it a ⭐.
