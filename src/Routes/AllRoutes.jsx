@@ -4,6 +4,8 @@ import Contact from '../Pages/Contact'
 import Home from '../Pages/Home'
 import Project from '../Pages/Project'
 import Skill from '../Pages/Skill'
+import Statistics from '../Pages/Statistics'
+
 
 const AllRoutes = () => {
   return (
@@ -11,6 +13,7 @@ const AllRoutes = () => {
         <Box ><Home/></Box>
         <Box id="skill"><Skill/></Box>
         <Box id="project"><Project/></Box>
+        <Box ><Statistics/></Box>
         <Box id="contact"><Contact/></Box>
     </Box>
   )
