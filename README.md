@@ -39,12 +39,7 @@ I am Akash Keshari, a Passionate aspiring Full Stack Developer skilled in MERN s
 * Projects
 * Contact
 * Resume
-## Sections
-* About
-* Tech-Stack
-* Projects
-* Contact
-* Resume
+
 ## How to use
 * Clone this Repo
 * ```bash
